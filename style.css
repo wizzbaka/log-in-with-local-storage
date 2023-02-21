@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: acme, sans-serif;
 }
 
 .main-parent{
@@ -10,4 +11,31 @@
   background-image: url(img/IMG_20220508_193151.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-parent .from-wrap{
+  width: 450px;
+  background: rgb(255 255 255/70%);
+  border-radius: 10px;
+  padding: 350px 40px;
+  backdrop-filter: blur(5px);
+ 
+}
+.main-parent .from-wrap h1{
+  font-variant: small-caps;
+  font-size: 45px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.main-parent .from-wrap h1 span{
+  color: #d55003;
+}
+.main-parent .from-wrap .single-input input{
+  width: 100%;
+  padding: 14px 10px;
+  border: 1px solid rgba(0, 0, 0, 0.352);
+  outline: none;
+  background-color: transparent;
 }
